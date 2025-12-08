@@ -118,8 +118,10 @@ body {
 
 #screen {
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: flex-end;
     background-color: rgb(156, 173, 169);
     flex: 1;
     border-radius: 10px;
+    align-items: center;
+    padding: 1rem;
 }
