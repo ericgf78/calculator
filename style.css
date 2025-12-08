@@ -1,0 +1,125 @@
+* {
+    font-family: Roboto;
+}
+
+html {
+    display: flex;
+    background-color:rgb(255, 255, 255);
+    justify-content: center;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator {
+    display: flex;
+    padding: 1rem;
+    background-color: rgb(207, 207, 207);
+    flex-direction: column;
+    height: 40rem;
+    width: 30rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+#display {
+    display: flex;
+    background-color: rgb(51, 51, 51);
+    flex: 20%;
+    border-radius: 10px;
+    padding: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#buttons {
+    display: flex;
+    flex: 70%;
+}
+
+#container1 {
+    display: flex;
+    flex: 70%;
+    flex-direction: column;
+    background-color: rgb(207, 207, 207);
+}
+
+#container2 {
+    flex: 30%;
+    display: flex;
+    background-color: rgb(207, 207, 207);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    gap: 2rem;
+    padding-top: 1rem;
+}
+
+ .numbers {
+    display: flex;
+    flex: 75%;
+    background-color: rgb(207, 207, 207);
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 0;
+    align-items: center;
+    text-align: center;
+ }
+
+ #buttons-below {
+    display: flex;
+    flex: 25%;
+    background-color: rgb(207, 207, 207);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+ }
+
+#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9, #buttonAC, #button0, #buttonEqual {
+    height: 5rem;
+    width: 5rem;
+    background-color: white;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    
+}
+#buttonAC {
+    background-color: rgb(255, 116, 92);
+}
+
+#buttonDivide, #buttonMultiply, #buttonMinus, #buttonAdd {
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(255, 145, 0);
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 5.3rem;
+    width: 7rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    font-size: larger;
+    font-weight: bold;
+}
+
+#screen {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(156, 173, 169);
+    flex: 1;
+    border-radius: 10px;
+}
