@@ -84,7 +84,7 @@ body {
     gap: 1rem;
  }
 
-#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9, #buttonAC, #button0, #buttonEqual {
+.numbered-buttons, #button-equal, #button-AC {
     height: 5rem;
     width: 5rem;
     background-color: white;
@@ -94,13 +94,14 @@ body {
     justify-content: center;
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
     
 }
-#buttonAC {
+#button-AC {
     background-color: rgb(255, 116, 92);
 }
 
-#buttonDivide, #buttonMultiply, #buttonMinus, #buttonAdd {
+.operator {
     height: 5rem;
     width: 5rem;
     background-color: rgb(255, 145, 0);
@@ -114,6 +115,7 @@ body {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
     font-size: larger;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #screen {
